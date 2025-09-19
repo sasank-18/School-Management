@@ -1,13 +1,13 @@
-import AppRoutes from './routes/AppRoutes'
-
+import Navbar from "./components/Navbar";
+import AppRoutes from "./routes/AppRoutes";
 
 function App() {
-
   return (
-    <div className="min-h-screen bg-gray-50 p-4">
+    <div className="min-h-screen  p-4">
+      <Navbar />
       <AppRoutes />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

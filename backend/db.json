@@ -1,0 +1,220 @@
+{
+  "books": [
+    {
+      "id": 2,
+      "title": "Dune",
+      "author": "Frank Herbert",
+      "genre": "Sci-Fi",
+      "year": 1965,
+      "status": "Issued"
+    },
+    {
+      "id": 3,
+      "title": "Educated",
+      "author": "Tara Westover",
+      "genre": "Non-fiction",
+      "year": 2018,
+      "status": "Available"
+    },
+    {
+      "id": 4,
+      "title": "Harry Potter and the Sorcerer’s Stone",
+      "author": "J.K. Rowling",
+      "genre": "Fantasy",
+      "year": 1997,
+      "status": "Available"
+    },
+    {
+      "id": 5,
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Fiction",
+      "year": 1949,
+      "status": "Issued"
+    },
+    {
+      "id": 6,
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "genre": "Fiction",
+      "year": 1932,
+      "status": "Available"
+    },
+    {
+      "id": 7,
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "year": 1937,
+      "status": "Issued"
+    },
+    {
+      "id": 8,
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "genre": "Sci-Fi",
+      "year": 1953,
+      "status": "Available"
+    },
+    {
+      "id": 9,
+      "title": "Sapiens",
+      "author": "Yuval Noah Harari",
+      "genre": "Non-fiction",
+      "year": 2011,
+      "status": "Available"
+    },
+    {
+      "id": 10,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Fiction",
+      "year": 1925,
+      "status": "Issued"
+    },
+    {
+      "id": 11,
+      "title": "Moby Dick",
+      "author": "Herman Melville",
+      "genre": "Fiction",
+      "year": 1851,
+      "status": "Available"
+    },
+    {
+      "id": 12,
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "genre": "Fiction",
+      "year": 1951,
+      "status": "Issued"
+    },
+    {
+      "id": 13,
+      "title": "Lord of the Rings: Fellowship",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "year": 1954,
+      "status": "Available"
+    },
+    {
+      "id": 14,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "genre": "Fiction",
+      "year": 1988,
+      "status": "Available"
+    },
+    {
+      "id": 15,
+      "title": "Thinking, Fast and Slow",
+      "author": "Daniel Kahneman",
+      "genre": "Non-fiction",
+      "year": 2011,
+      "status": "Issued"
+    },
+    {
+      "id": 16,
+      "title": "The Martian",
+      "author": "Andy Weir",
+      "genre": "Sci-Fi",
+      "year": 2011,
+      "status": "Available"
+    },
+    {
+      "id": 17,
+      "title": "Ready Player One",
+      "author": "Ernest Cline",
+      "genre": "Sci-Fi",
+      "year": 2011,
+      "status": "Available"
+    },
+    {
+      "id": 18,
+      "title": "Becoming",
+      "author": "Michelle Obama",
+      "genre": "Non-fiction",
+      "year": 2018,
+      "status": "Issued"
+    },
+    {
+      "id": 19,
+      "title": "The Name of the Wind",
+      "author": "Patrick Rothfuss",
+      "genre": "Fantasy",
+      "year": 2007,
+      "status": "Available"
+    },
+    {
+      "id": 20,
+      "title": "Mistborn",
+      "author": "Brandon Sanderson",
+      "genre": "Fantasy",
+      "year": 2006,
+      "status": "Issued"
+    },
+    {
+      "id": 21,
+      "title": "The Road",
+      "author": "Cormac McCarthy",
+      "genre": "Fiction",
+      "year": 2006,
+      "status": "Available"
+    },
+    {
+      "id": 22,
+      "title": "The Power of Habit",
+      "author": "Charles Duhigg",
+      "genre": "Non-fiction",
+      "year": 2012,
+      "status": "Available"
+    },
+    {
+      "id": 23,
+      "title": "Foundation",
+      "author": "Isaac Asimov",
+      "genre": "Sci-Fi",
+      "year": 1951,
+      "status": "Issued"
+    },
+    {
+      "id": 24,
+      "title": "Neuromancer",
+      "author": "William Gibson",
+      "genre": "Sci-Fi",
+      "year": 1984,
+      "status": "Available"
+    },
+    {
+      "id": 25,
+      "title": "A Game of Thrones",
+      "author": "George R.R. Martin",
+      "genre": "Fantasy",
+      "year": 1996,
+      "status": "Issued"
+    },
+    {
+      "title": "helo",
+      "author": "sdafs",
+      "genre": "Fiction",
+      "year": "2002",
+      "status": "Available",
+      "id": 26
+    },
+    {
+      "title": "sasank",
+      "author": "raju",
+      "genre": "Fiction",
+      "year": "2003",
+      "status": "Available",
+      "id": 27
+    },
+    {
+      "title": "sasank",
+      "author": "salkjf",
+      "genre": "Fiction",
+      "year": "3032",
+      "status": "Available",
+      "id": 28
+    }
+  ]
+}
