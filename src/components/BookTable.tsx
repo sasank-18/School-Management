@@ -23,9 +23,6 @@ const BookTable = ({
   onEdit,
   onDelete,
 }: BookTableProps) => {
-
-
-  
   const columns: ColumnsType<Book> = [
     { title: "Title", dataIndex: "title", key: "title" },
     { title: "Author", dataIndex: "author", key: "author" },
@@ -71,18 +68,21 @@ const BookTable = ({
   ];
 
   return (
-    <Table
-      columns={columns}
-      dataSource={books}
-      rowKey="id"
-      loading={loading}
-      pagination={{
-        current: page,
-        total: totalCount,
-        pageSize: limit,
-        onChange: (p, l) => onPageChange(p, l || limit),
-      }}
-    />
+    <div className="w-full overflow-x-auto">
+      <Table
+        className="w-full"
+        columns={columns}
+        dataSource={books}
+        rowKey="id"
+        loading={loading}
+        pagination={{
+          current: page,
+          total: totalCount,
+          pageSize: limit,
+          onChange: (p, l) => onPageChange(p, l || limit),
+        }}
+      />
+    </div>
   );
 };
 

@@ -56,10 +56,11 @@ export default function Home() {
 
   return (
     <div className="min-h-screen">
-      <Content className="p-6">
+      <Content className="py-6">
         <div className="flex flex-col mb-4 md:flex-row justify-between items-center gap-4">
           <SearchBar value={search} onChange={setSearch} />
-          <Filter
+          <div className="flex gap-4 max-sm:flex-col justify-between items-center w-full md:w-auto">
+             <Filter
             label="Genre"
             value={genre}
             placeholder="Filter by Genre"
@@ -73,9 +74,10 @@ export default function Home() {
             options={statusOptions}
             onChange={setStatus}
           />
-          <Button type="primary" onClick={() => setOpen(true)}>
+          <Button className="w-full" type="primary" onClick={() => setOpen(true)}>
             + Add Book
           </Button>
+          </div>
         </div>
 
         <BookTable

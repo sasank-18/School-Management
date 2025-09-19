@@ -16,10 +16,10 @@ export default function Filter({
   placeholder,
   options,
   onChange,
-  width = "w-32",
+  width = "w-full",
 }: FilterSelectProps) {
   return (
-    <div className="flex items-center gap-2">
+    <div className="flex items-center w-full gap-2">
       {/* {label && <span className="font-medium">{label}:</span>} */}
       <Select
         value={value.length > 0 ? value : null}
