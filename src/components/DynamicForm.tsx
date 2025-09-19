@@ -46,12 +46,16 @@ export default function DynamicForm({
       onOk={handleSubmit(submitHandler)}
       okText="Save"
     >
+
       <form className="flex flex-col gap-4">
         {config.map((field) => (
           <div key={field.name}>
             <label className="block mb-1 font-medium">{field.label}</label>
             <Controller
               name={field.name}
+              
+
+              // @ts-expect-error unable to understand the problem 
               control={control}
               rules={field.rules}
               render={({ field: controllerField }) => {

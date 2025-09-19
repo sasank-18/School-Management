@@ -161,14 +161,6 @@
       "status": "Available"
     },
     {
-      "id": 22,
-      "title": "The Power of Habit",
-      "author": "Charles Duhigg",
-      "genre": "Non-fiction",
-      "year": 2012,
-      "status": "Available"
-    },
-    {
       "id": 23,
       "title": "Foundation",
       "author": "Isaac Asimov",
@@ -177,44 +169,12 @@
       "status": "Issued"
     },
     {
-      "id": 24,
-      "title": "Neuromancer",
-      "author": "William Gibson",
-      "genre": "Sci-Fi",
-      "year": 1984,
-      "status": "Available"
-    },
-    {
-      "id": 25,
-      "title": "A Game of Thrones",
-      "author": "George R.R. Martin",
-      "genre": "Fantasy",
-      "year": 1996,
-      "status": "Issued"
-    },
-    {
-      "title": "helo",
-      "author": "sdafs",
+      "title": "helllo",
+      "author": "sasank",
       "genre": "Fiction",
-      "year": "2002",
+      "year": "22121",
       "status": "Available",
-      "id": 26
-    },
-    {
-      "title": "sasank",
-      "author": "raju",
-      "genre": "Fiction",
-      "year": "2003",
-      "status": "Available",
-      "id": 27
-    },
-    {
-      "title": "sasank",
-      "author": "salkjf",
-      "genre": "Fiction",
-      "year": "3032",
-      "status": "Available",
-      "id": 28
+      "id": 24
     }
   ]
 }

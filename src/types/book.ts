@@ -31,7 +31,7 @@ export interface FieldConfig {
   onClose: () => void;
   onSubmit: (data: Book) => void;
   config: FieldConfig[];
-  initialData?: Record<string, string | number>;
+  initialData?: Book;
   title?: string;
 }
 

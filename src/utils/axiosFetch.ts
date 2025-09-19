@@ -1,5 +1,6 @@
 // src/api/bookApi.ts
 import axios, {  isAxiosError, type AxiosResponse } from "axios";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:3000";
 
 interface FetchPayload<T> {
   url: string;
@@ -25,8 +26,8 @@ const axiosFetch = async<T>({
 }: FetchPayload<T>): Promise<FetchResponse<T>> => {
   const requestUrl = url.startsWith("http")
     ? url
-    // : `${process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:3000"}${url}`;
-    : `http://localhost:3000${url}`
+    : `${API_BASE_URL || "http://localhost:3000"}${url}`;
+    // : `http://localhost:3000${url}`
 
   try {
     const response : AxiosResponse<T> = await axios.request<T>({
