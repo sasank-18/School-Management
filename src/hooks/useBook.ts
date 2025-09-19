@@ -54,7 +54,7 @@ export function useBooks(params: {
     mutationFn: async (updatedBook: Book) => {
       if (!updatedBook.id) throw new Error("Book ID is required");
       return axiosFetch({
-        url: `${BOOK_APIS.UPDATE_BOOK}/${updatedBook.id}`,
+        url: BOOK_APIS.UPDATE_BOOK(updatedBook.id),
         method: "put",
         data: updatedBook,
       });
